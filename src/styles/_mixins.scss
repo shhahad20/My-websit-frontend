@@ -1,0 +1,18 @@
+@mixin header-style($fontSize) {
+    text-align: center;
+    font-size: $fontSize;
+    font-weight: 500;
+    padding: 0 15px;
+    background:linear-gradient(0deg, #d8ecf8, #98c0ef);
+    background-clip: text;
+    color: transparent;
+    display: block;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 2px 16px rgba(174, 207, 242, .24);
+}
+@mixin betweenLines{
+    content: "";
+    height: 1px;
+    background: linear-gradient(90deg, rgba(216, 236, 248, 0), rgba(184, 216, 254, .32));
+    width: 86px;
+}
