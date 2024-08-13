@@ -9,12 +9,12 @@ import Summary from './components/Summary';
 function App() {
   const [data, setData] = useState(null);
 
-  useEffect(() => {
-    fetch('http://localhost:5000')
-      .then(response => response.json())
-      .then(data => setData(data))
-      .catch(error => console.error('Error:', error));
-  }, []);
+  // useEffect(() => {
+  //   fetch('https://my-website-backend-hs31.vercel.app')
+  //     .then(response => response.json())
+  //     .then(data => setData(data))
+  //     .catch(error => console.error('Error:', error));
+  // }, []);
 
   return(
     <BrowserRouter>
