@@ -1,7 +1,7 @@
 // Create functions to make API calls to the backend using axios.
 import axios from 'axios';
 
-export const API_URL = 'http://localhost:5000'; // Replace with the actual backend URL
+export const API_URL = 'http://https://my-website-backend-hs31.vercel.app/'; // Replace with the actual backend URL
 
 export const getProjects = async () => {
   try {
