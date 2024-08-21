@@ -285,6 +285,10 @@
 }
 }
 @media (max-width: 480px){
+  .spotlight > div {
+    width: 20em; 
+    height: max(35em, 73vh);
+  }
   .lines-background .line:nth-child(1) {
     display: none;
     // top: 25%;
@@ -313,31 +317,33 @@
   }
   .content{
     .head-head{
-      font-size: 30px;
+      font-size: 38px;
     }
     .para{
       font-size: 14px;
-      max-width: 450px;
+      max-width: 325px;
+      line-height: 1.4;
+      padding: 0.5rem 0;
     }
     .more-about-button{
       font-size: 14px;
     }
   }
   }
-  @media (max-width: 320px){
-    .content{
-      .head-head{
-        font-size: 20px;
-      }
-      .para{
-        font-size: 14px;
-        max-width: 450px;
-      }
-      .more-about-button{
-        font-size: 14px;
-      }
-    }
-    }
+  // @media (max-width: 320px){
+  //   .content{
+  //     .head-head{
+  //       font-size: 20px;
+  //     }
+  //     .para{
+  //       font-size: 14px;
+  //       max-width: 450px;
+  //     }
+  //     .more-about-button{
+  //       font-size: 14px;
+  //     }
+  //   }
+  //   }
 
   @keyframes drop{
  0% {

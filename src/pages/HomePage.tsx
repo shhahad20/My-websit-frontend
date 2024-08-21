@@ -36,11 +36,16 @@ const HomePage = () => {
     <Cards/>
     {/* <Hero/> */}
     </div>
+    <div className='include-cursor'>
     <About/>
+    </div>
     <Education />
     <div>
     {/* <Skills/> */}
+    <div className='include-cursor'>
     <Timeline/>
+    </div>
+
     </div>
     <Summary/>
     {/* <Story/> */}

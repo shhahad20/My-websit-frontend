@@ -120,3 +120,11 @@ color: rgba(186, 214, 247, .32);
         }
     }
 }
+@media (max-width: 480px) {
+    .second-header{
+        @include header-style(30px);
+        padding: 0;
+        margin-bottom: 2rem;
+    }
+
+}
