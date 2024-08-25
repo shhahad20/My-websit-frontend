@@ -56,16 +56,6 @@
         
       }
       @media (hover: none) and (pointer: coarse) {
-        // Hide cursor on hover
-        *:hover {
-          cursor: none;
-          pointer-events: none
-        }
-      
-        // Hide cursor on active/click
-        *:active {
-          cursor: none;
-          pointer-events: none
-        }
+        cursor: auto;
       }
 }

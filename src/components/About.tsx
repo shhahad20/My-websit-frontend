@@ -49,19 +49,7 @@ const About = () => {
       `calc( ${fs} + (${lh}/4) )`
     );
   };
-  // useEffect(() => {
-  //   document.body.addEventListener("mousemove", handleMouseMove);
-  //   document.body.querySelectorAll(".highlightable > *").forEach((el) => {
-  //     el.addEventListener("mouseenter", handleMouseEnter);
-  //   });
-
-  //   return () => {
-  //     document.body.removeEventListener("mousemove", handleMouseMove);
-  //     document.body.querySelectorAll(".highlightable > *").forEach((el) => {
-  //       el.removeEventListener("mouseenter", handleMouseEnter);
-  //     });
-  //   };
-  // }, []); 
+ 
   useEffect(() => {
     document.body.addEventListener("mousemove", handleMouseMove);
     const highlightableElements = document.body.querySelectorAll(".highlightable > *") as NodeListOf<HTMLElement>;
