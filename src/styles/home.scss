@@ -22,3 +22,8 @@ body {
 @media (max-width: 480px) {
 
 }
+@media (hover: none) and (pointer: coarse) {
+  .include-cursor{
+    cursor: none;
+  }
+}
