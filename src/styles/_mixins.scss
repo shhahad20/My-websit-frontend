@@ -55,7 +55,7 @@
         -webkit-backdrop-filter: blur(3px);
         
       }
-      @media (hover: none) and (pointer: coarse) {
+      @media (max-width: 768px) {
         cursor: auto;
       }
 }
