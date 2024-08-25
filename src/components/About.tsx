@@ -38,6 +38,13 @@ const About = () => {
   const handleMouseMove = (e: MouseEvent) => {
     document.documentElement.style.setProperty("--mouse-x", `${e.pageX}px`);
     document.documentElement.style.setProperty("--mouse-y", `${e.pageY}px`);
+      // Show/hide cursor based on device type
+  if (e.pageY < 768) {
+    if ('ontouchstart' in window) {
+      document.documentElement.style.setProperty("display", 'none')
+    } else {
+      document.documentElement.style.setProperty("display", 'block')    }
+  }
   };
 
   const handleMouseEnter = (e:MouseEvent) => {

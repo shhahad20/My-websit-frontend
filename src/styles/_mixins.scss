@@ -18,6 +18,7 @@
 }
 
 @mixin cursorStyle{
+  @media (min-width: 800px) {
     --show-cursor: none;
     cursor: none; 
     ::selection {
@@ -55,7 +56,4 @@
         -webkit-backdrop-filter: blur(3px);
         
       }
-      @media (max-width: 768px) {
-        cursor: auto;
-      }
-}
+}}

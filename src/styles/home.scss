@@ -18,7 +18,13 @@ body {
 // }
 @media (max-width: 768px) {
   .include-cursor{
-    cursor: auto;
+    cursor: none;
+    &:hover {
+      cursor: auto;
+    }
+    &::after {
+      cursor: auto;
+    }
   }
 }
 @media (max-width: 480px) {
