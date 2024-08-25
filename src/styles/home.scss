@@ -20,7 +20,18 @@ body {
 }
  
 @media (max-width: 480px) {
+  .include-cursor{
+    cursor: none;
+      // Hide cursor on hover
+  *:hover {
+    cursor: none;
+  }
 
+  // Hide cursor on active/click
+  *:active {
+    cursor: none;
+  }
+  }
 }
 @media (hover: none) and (pointer: coarse) {
   .include-cursor{
